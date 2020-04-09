@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1.heading {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2.heading {
+    font-size: 28px;
+    margin-top: 54px;
+}
+
+p {
+    line-height: 1.4;
+    margin-top: 0;
+}
+
+.text {
+    padding-left: 62px;
+}
+
+.header a {
+    color: white;
+}
+
+.header a:visited {
+    color: #999;
+}
+
+.header_pagewide {
+    background-color: #3C3C3C;
+}
+
+.header {
+    display: flex;
+    min-height: 64px;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.header_menu {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_photo {
+    background-image: url("src/avatar.jpg");
+    background-size: cover;
+    height: 200px;
+    min-width: 150px;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+.text_job {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.main_text {
+    margin-top:0;
+    padding-right: 44px;
+}
+
+.portfolio_item {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.portfolio_article {
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.exp_items-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_item {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.exp_time {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.exp_place {
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts_item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contacts_adress {
+    margin: 0;
+    padding-left: 8px;
+}
